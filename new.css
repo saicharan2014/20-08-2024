@@ -9,9 +9,10 @@ body {
 header {
   text-align: center;
   background-color: cadetblue;
-  height: 10vh;
+  min-height: 10vh;
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 ul {
   display: inline-block;
@@ -29,20 +30,19 @@ a {
 a:hover {
   text-decoration-color: white;
   border-bottom: 2px solid rgb(171, 167, 167);
- 
 }
 #div1 {
   text-align: center;
   margin: 10px 50vh;
   background-color: white;
-  height: 14vh;
+  min-height: 14vh;
   box-shadow: 2px 2px 6px 2px lightgrey;
 }
 #div2 {
   margin: 10px 50vh;
   background-color: white;
-  height: 25vh;
-  box-shadow: 2px 2px 6px 2px lightgrey;
+  min-height: 25vh;
+
   padding: 1px;
 }
 
@@ -72,7 +72,7 @@ h2 {
   margin: 10px 50vh;
   background-color: white;
   height: 100%;
-  box-shadow: 3px 3px 6px 3px lightgrey;
+
   padding: 1px;
 }
 #div3 h3 {
@@ -80,7 +80,7 @@ h2 {
   display: inline-block;
 }
 table {
-  width: 100%;
+  min-width: 100%;
   text-align: left;
   height: 100%;
 }
@@ -97,76 +97,72 @@ td {
 #container {
   margin: 10px 50vh;
   background-color: white;
-  height: 50vh;
-  box-shadow: 2px 2px 6px 2px lightgrey;
+  min-height: 50vh;
+
   padding: 1px;
 }
 #div4 {
   display: inline-block;
-  width: 30%;
-  height: 35%;
+  min-width: 30%;
+  min-height: 35%;
   background-color: lightgray;
   margin: 12px 10px 10px 30px;
-  box-shadow: 2px 2px 6px 2px lightgrey;
+
   padding: 10px;
   border-radius: 5px;
+  text-align: center;
 }
 #div5 {
   display: inline-block;
-  width: 30%;
-  height: 35%;
+  min-width: 30%;
+  min-height: 35%;
   background-color: lightgray;
   margin: 12px 10px 10px 30px;
-  box-shadow: 2px 2px 6px 2px lightgrey;
+
   padding: 10px;
   border-radius: 5px;
+  text-align: center;
 }
 #div6 {
   display: inline-block;
   background-color: lightgray;
-  width: 30%;
-  height: 35%;
-  box-shadow: 2px 2px 6px 2px lightgrey;
+  min-width: 30%;
+  min-height: 35%;
+
   padding: 1px;
   margin: 12px 10px 10px 30px;
   border-radius: 5px;
+  text-align: center;
 }
 #container h3 {
-  /* display: inline-block; */
-  margin-top: 20px;
+  margin-top: 10px;
   margin-left: 20px;
 }
 span {
-  display: inline-block;
-  padding: 8px;
-  margin-left: 60px;
+  position: relative;
+  margin: 20px;
 }
 h4 {
-  display: inline-block;
-  padding: 8px;
-  margin-left: 60px;
+  margin: 20px;
 }
 #div4 p {
-  margin-left: 15px;
-  padding: 5px;
+  margin: 20px;
 }
 #div5 p {
-  margin-left: 15px;
-  padding: 5px;
+  margin: 20px;
 }
 #div6 p {
-  margin-left: 15px;
-  padding: 5px;
+  margin: 20px;
 }
 #div7 {
   margin: 10px 50vh;
   background-color: white;
-  height: 62vh;
-  box-shadow: 2px 2px 6px 2px lightgrey;
+  min-height: 62vh;
+
   padding: 1px;
 }
 input {
-  width: 98%;
+  min-width: 98%;
   margin: 10px 0 10px 10px;
   padding: 8px;
 }
@@ -176,7 +172,7 @@ input {
 footer {
   text-align: center;
   background-color: cadetblue;
-  height: 10vh;
+  min-height: 10vh;
 }
 label {
   margin: 10px;
@@ -189,14 +185,14 @@ input:hover {
   border: 2px solid black;
 }
 #submit {
-  width: 15%;
+  min-width: 15%;
   padding: 10px;
   background-color: rgb(60, 227, 60);
   margin: 10px;
   color: white;
 }
 #textarea {
-  width: 98%;
+  min-width: 98%;
   margin: 10px;
 }
 #textarea:hover {
